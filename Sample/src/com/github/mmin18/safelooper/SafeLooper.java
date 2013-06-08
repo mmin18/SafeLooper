@@ -38,11 +38,9 @@ import android.os.MessageQueue;
  * SafeLooper catches unexpected exceptions in Looper to avoid showing force
  * close dialog.
  * <p>
- * After call SafeLooper.install(), the current thread's looper will be take
- * over. Uncaught exceptions will be send to uncaughtExceptionHandler and the
- * looper will continues.<br>
- * <p>
- * Normally you will call SafeLooper.install() in main thread.
+ * After call SafeLooper.install(), the main looper will be take over. Uncaught
+ * exceptions will be send to uncaughtExceptionHandler and the looper will
+ * continues.<br>
  * 
  * @author yimin.tu
  * 
