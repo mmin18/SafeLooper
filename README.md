@@ -9,6 +9,15 @@ If you can create a sub looper, pull message from event queue and process it wit
 
 Here is how a SafeLooper works:
 
-[pic]
+![SafeLooper](https://raw.github.com/mmin18/SafeLooper/master/SafeLooper.png)
+
+All you need to do is import SafeLooper.java into your project and call SafeLooper.install() when your application start.
 
 
+	// install SafeLooper in main thread
+	SafeLooper.install();
+	
+	// receive the uncaught exception if you don't want to ignore it
+	SafeLooper.setUncaughtExceptionHandler(...);
+
+You can also test the safelooper.apk on your device.
