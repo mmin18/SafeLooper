@@ -20,4 +20,4 @@ All you need to do is import SafeLooper.java into your project and call SafeLoop
 	// receive the uncaught exception if you don't want to ignore it
 	SafeLooper.setUncaughtExceptionHandler(...);
 
-You can also test the safelooper.apk on your device.
+You can also test the <https://raw.github.com/mmin18/SafeLooper/master/safelooper.apk> on your device.
