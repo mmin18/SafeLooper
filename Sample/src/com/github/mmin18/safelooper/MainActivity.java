@@ -4,10 +4,6 @@ package com.github.mmin18.safelooper;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import com.github.mmin18.safelooper.R;
-import com.github.mmin18.safelooper.R.id;
-import com.github.mmin18.safelooper.R.layout;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
